@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-weblist-dev-212422-authRole",
+      "UnauthRoleArn": "arn:aws:iam::463060859791:role/amplify-weblist-dev-212422-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::463060859791:role/amplify-weblist-dev-212422-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-weblist-dev-212422-deployment",
+      "UnauthRoleName": "amplify-weblist-dev-212422-unauthRole",
+      "StackName": "amplify-weblist-dev-212422",
+      "StackId": "arn:aws:cloudformation:us-east-1:463060859791:stack/amplify-weblist-dev-212422/35f03e00-9b62-11ec-9a6c-0ee3ff8b9dbd",
+      "AmplifyAppId": "d2s5pb41yv0ew5"
+    },
+    "categories": {
+      "auth": {
+        "weblistaf51f9a2": {}
+      }
+    }
+  }
+}
