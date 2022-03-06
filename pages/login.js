@@ -37,12 +37,13 @@ export default function Login() {
 
   return (
     <div>
-      <div className="mt-32">
+      <div style={{ marginTop: 32 }}>
         <div className="mt-16 text-center text-6xl font-bold text-blue-600">
           Sign In
         </div>
         <form onSubmit={handleSubmit(onSubmit)}>
           <Grid
+            style={{ marginTop: 16 }}
             container
             direction="column"
             alignItems="center"
@@ -51,7 +52,7 @@ export default function Login() {
             <Grid item>
               <TextField
                 variant="standard"
-                className="mt-4 mb-4 w-52"
+                style={{ marginTop: 12, marginBottom: 12, width: "12rem" }}
                 id="email"
                 label="Email"
                 type="text"
@@ -64,7 +65,7 @@ export default function Login() {
             <Grid item>
               <TextField
                 variant="standard"
-                className="mt-4 mb-4 w-52"
+                style={{ marginTop: 12, marginBottom: 12, width: "12rem" }}
                 id="password"
                 label="Password"
                 type="password"

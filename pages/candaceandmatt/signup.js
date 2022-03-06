@@ -78,21 +78,25 @@ export default function Signup() {
   console.log("Errors: ", errors);
 
   return (
-    <div className="mt-32">
+    <div style={{ marginTop: 32 }}>
       <div className="mt-16 text-center text-6xl font-bold text-blue-600">
         Sign Up
       </div>
-      <form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
+      <form
+        style={{ marginTop: 32 }}
+        onSubmit={handleSubmit(onSubmit)}
+        autoComplete="off"
+      >
         <Grid
+          style={{ marginTop: 16 }}
           container
           direction="column"
           alignItems="center"
           justify="center"
           spacing={2}
-          className="mt-8"
         >
           <TextField
-            className="mt-4 mb-4 w-52"
+            style={{ marginTop: 12, marginBottom: 12, width: "12rem" }}
             variant="standard"
             id="name"
             label="First & Last Name"
@@ -107,7 +111,7 @@ export default function Signup() {
             })}
           />
           <TextField
-            className="mt-4 mb-4 w-52"
+            style={{ marginTop: 12, marginBottom: 12, width: "12rem" }}
             variant="standard"
             id="email"
             label="Email"
@@ -122,7 +126,7 @@ export default function Signup() {
             })}
           />
           <TextField
-            className="mt-4 mb-4 w-52"
+            style={{ marginTop: 12, marginBottom: 12, width: "12rem" }}
             variant="standard"
             type="password"
             id="password"
@@ -139,7 +143,7 @@ export default function Signup() {
           />
           {showCode && (
             <TextField
-              className="mt-4 mb-4"
+              style={{ marginTop: 12, marginBottom: 12, width: "12rem" }}
               variant="standard"
               id="code"
               label="Verification Code"
